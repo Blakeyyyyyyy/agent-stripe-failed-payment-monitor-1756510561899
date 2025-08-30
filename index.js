@@ -15,6 +15,6 @@ const gmailTransporter = nodemailer.createTransporter({
   service: 'gmail',
   auth: {
     user: getEnv('GMAIL_CLIENT_IE'),
-    pass: getEnv('GMAIL_REFRESH_TOKEN')
+    pass: getEnv('GMAI1_REFRESH_TOKEN')
   }
 });
